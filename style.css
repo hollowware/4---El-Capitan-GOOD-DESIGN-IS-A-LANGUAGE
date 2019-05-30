@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background: url(elCapitan.jpg) 50% 50% no-repeat;
+    background-size: cover;
+    font-family: "Montserrat", sans-serif;
+}
+.container {
+    width: 800px;
+    height: 500px;
+    margin-left: calc((100% - 800px) / 2);
+    margin-top: 50px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+header {
+    display: inline-block;
+    width: 100%;
+}
+.toggle {
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 23px;
+}
+.toggle span {
+    position: relative;
+    width: 20px;
+    height: 2px;
+    background: white;
+    display: block;
+    margin-bottom: 3px;
+}
+.contacts {
+    float: right;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+.home {
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.below-box {
+    display: inline-block;
+    width: 50%;
+}
+.content {
+    display: block;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    color: white;
+    margin-top: 70px;
+}
+h1 {
+    font-size: 40px;
+}
+.btn {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50px;
+    outline: 0;
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+}
+.btn:hover {
+    opacity: 1;
+}
+.arrow-right {
+    display: inline-block;
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #323232;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+
+ 
